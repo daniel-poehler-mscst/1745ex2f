@@ -1,0 +1,147 @@
+﻿/*
+   New Perspectives on HTML
+   Exercise 3C
+
+   Bird Watching at Home Style Sheet
+   Author: John Sears
+   Date:   12/11/2014
+
+   Filename:         index_styles.css
+   Supporting Files: index.htm
+
+*/
+
+
+/* Web-Font style */ 
+
+@import url(http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911);
+@font-face {
+	font-family: "Goudy Bookletter 1911", serif;
+	src: url(http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911);
+}
+
+
+/* Body styles */
+
+body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: rgb(0, 0, 0);
+	font-size: 1.4em;
+	font-weight: normal;
+	line-height: 1em;
+	letter-spacing: normal;
+}
+
+
+/* Header styles */
+
+body > h1 {
+	font-size: 1.8em;
+	font-weight: bold;
+}
+
+
+/* Navigation styles */
+
+nav ul {
+	list-style-type: none;
+	font-size: .7em;
+}
+
+nav ul li {
+	background-color: rgb(175, 211, 243);
+	text-align: center;
+	line-height: 1.5em;
+	border: 2px solid #2d04ff;
+}
+
+
+/* Section styles */
+
+section h1, h2 {
+	font-size: 1.6em;
+	font-weight: bold;
+}
+
+section h4 {
+	font-size: 1em;
+	font-weight: bold;
+}
+
+section#links {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1.1em;
+	text-align: center;
+	padding-top: .8em;
+}
+
+section nav {
+	font-size: .9em;
+	text-align: center;
+}
+
+section > article h2+h4+p {
+	font-family: "Goudy Bookletter 1911", serif;
+}
+
+section > article h4:before, h4:after {
+	content: '"';
+}
+
+
+/* Aside styles */
+
+aside {
+	background-color: rgb(175, 211, 243);
+	border: .2em solid #2d04ff;
+	
+	-moz-border-radius-bottomleft:2.4em;
+	-webkit-border-bottom-left-radius:2.4em;
+	border-bottom-left-radius:2.4em;
+}
+
+aside h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: center;
+	border-bottom: .1em solid #2d04ff;
+	padding-bottom: .4em;
+}
+
+aside > ul > li {
+	font-weight: bold;
+	text-align: center;
+}
+
+aside > ul > li > a {
+	color: rgb(255, 0, 255);
+	color: hsla(244, 100%, 50%, 0.65);
+	font-size: 1.2em;
+	text-decoration: none; 
+	line-height: 1.1em;
+}
+
+aside > ul > li > a:hover {
+	color: rgb(0, 0, 255);
+	color: hsla(244, 100%, 50%, 1.0);
+	text-decoration: underline;
+}
+
+aside > ul > li > a:visited {
+	color: rgb(255, 255, 0);
+	color: hsla(60, 100%, 50%, 1.0);
+}
+
+aside p {
+	font-size: .9em;
+}
+
+
+/* Footer styles */
+
+footer address {
+	font-size: 1.12em;
+	text-align: center;
+	padding-right: 23em;
+}

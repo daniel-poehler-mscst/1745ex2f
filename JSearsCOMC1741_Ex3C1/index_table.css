@@ -1,0 +1,83 @@
+/*
+   New Perspectives on HTML
+   Exercise 3C
+
+   Bird Watching at Home Table Style Sheet
+   Author: John Sears
+   Date:   12/15/2014
+
+   Filename:         index_table.css
+   Supporting Files: feeding.htm
+
+*/
+
+
+/* Table Styles */
+
+table.feed {
+	width: 98.7%;
+	border: .16em solid rgb(0, 0, 0);
+	border-collapse: collapse;
+	font-family: Arial, Verdana, sans-serif;
+	margin-top: 1.5em;
+}
+
+
+/* Table Caption Styles */
+
+table.feed caption {
+	caption-side: bottom;
+	font-size: 1em;
+	text-align: left;
+}
+
+
+/* Table Thead > Row, Header & Data Cell Styles */
+
+table.feed thead > tr {
+	color: rgb(0, 0, 0);
+	background-color: rgb(255, 255, 80);
+}
+
+table.feed thead > tr th {
+	font-size: 1em;
+	font-weight: bold;
+	border: .08em solid rgb(0, 0, 0);
+}
+
+table.feed thead > tr th:first-of-type {
+	background-color: rgb(153, 86, 7);
+}
+
+
+/* Table Tbody > Row, Header & Data Cell Styles */
+
+table.feed tbody tr th {
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	background-color: rgb(210, 195, 141);
+	border: .08em solid rgb(0, 0, 0);
+}
+
+table.feed tbody tr td {
+	font-family: Consolas, "Courier New", monospace; 
+	font-weight: 600;
+	font-size: 1em;
+	text-align: center;
+	background-color: rgb(255, 255, 153);
+	border: .08em solid rgb(0, 0, 0);
+	
+}
+
+
+/* Table Column Groups */
+
+table.feed col.birdColumn {
+	width: 28%;
+}
+
+table.feed col.seasonColumns {
+	width: 18%;
+}
