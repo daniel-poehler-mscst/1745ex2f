@@ -1,0 +1,94 @@
+/*
+   New Perspectives on HTML and CSS
+   Exercise 3C
+   Review Assignment
+
+   Programming Table Style Sheet
+   Author: Mitchell Banse
+   Date: 12/12/2015   
+
+   Filename:         programs.css
+   Supporting Files: 
+
+*/
+/* Table Layout CSS */
+table.schedule {
+	width: 100%;
+	border: 2px solid black;
+	border-collapse: collapse;
+	font-family: Arial, Verdana, sans-serf;
+}
+
+table.schedule caption {
+	caption-side: bottom;
+	text-align: right;
+	font-size: 0.9em;
+}
+
+
+table.schedule tbody td {
+	font-size: 0.7em;
+	vertical-align: top;
+	border: 1px solid gray;
+	padding: 2px;
+}
+
+
+table.schedule tr {
+	height: 1.3em;
+}
+
+
+table.schedule thead tr {
+	background-color: rgb(103, 166, 60);
+	color: white;
+}
+
+
+table.schedule thead th:first-of-type {
+	background-color: rgb(150, 80, 7);
+}
+
+table.schedule tbody th {
+	font-size: 0.7em;
+	border: 1px solid gray;
+}
+
+table.schedule thead th {
+	font-size: 0.7em;
+	border: 1px solid gray;
+}
+
+table.schedule thead th:nth-of-type(7), table.schedule thead th:nth-of-type(8) {
+	background-color: blue;
+}
+
+
+table.schedule col.timeColumn {
+	width: 10%;
+	background-color: rgb(215, 212, 151);
+}
+
+table.schedule col.wDayColumns {
+	width: 11%;
+	background-color: rgb(242, 255, 211);
+}
+
+table.schedule col.wEndColumns {
+	width: 17%;
+	background-color: rgb(255, 219, 223);
+}
+
+article.intro p {
+	-moz-column-count: 2;
+	-webkit-column-count: 2;
+	column-count: 2;
+	
+	-moz-column-gap: 20px;
+	-webkit-column-gap: 20px;
+	column-gap: 20px;
+	
+	-moz-column-rule: 2px solid black;
+	-webkit-column-rule: 2px solid black;
+	column-rule: 2px solid black;
+}
