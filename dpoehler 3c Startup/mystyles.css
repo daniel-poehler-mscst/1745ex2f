@@ -1,0 +1,122 @@
+﻿/*
+   Field Day Styles Sheet
+   Author: Daniel Poehler
+   Date:   10/28/2015
+
+   Filename:         mystyles.css
+   Supporting Files: none
+*/
+
+/* Body Styles */
+body {
+	background-color: rgba(227,184,244,.7);
+	line-height: 1.5em;
+}
+
+/* Block Styles */
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	letter-spacing: .16em;
+}
+
+/*Header styles*/
+header {
+	text-align: left;
+}
+header h1 {
+	font-size: 10.5em;
+	text-align: center;
+	color: rgba(227,184,244,.7);
+	font-weight: bold;
+}
+
+
+/*Nav list styles*/
+section nav {
+	font-size: 0.9em;
+	text-align: center;
+}
+nav ul {
+	list-style-type: none;
+	font-size: 1.4em;
+}
+
+nav ul li {
+	text-align: center;
+	background-color: hsla(263,81%,47%,0.7);
+	line-height: 1.6em;
+}
+	nav ul li:hover {
+	background-color: rgba(70,14,233,1.00);
+}
+ul li a {
+	color: white;
+	color: rgba(255,255,255,0.7);
+	text-decoration: none;
+	font-weight: bold;
+}
+ul li a:hover {
+	color: rgba(239,22,231,.6);
+}
+
+/*Section styles*/
+section {
+	background-color: hsl(212,95%,90%)
+}
+section p {
+font-size: 1.1em;
+}
+
+/*Aside styles*/
+aside {
+	text-align: left;
+}
+aside h1 {
+	color: rgba(239,22,231,.6);
+	background-color: rgba(55,14,224,1);
+	text-decoration: underline;
+	font-size: 1.1em;
+	font-weight: normal;
+	text-align: center;
+	line-height: 1.5em;
+}
+aside p {
+font-size: 0.8em;	
+}
+aside p a:link {
+	color: green;
+}
+aside ul {
+	text-align: left;
+}
+aside ul li {
+	line-height: 2em;
+	list-style-type: square;
+	font-size: 0.8em;
+}
+
+/*Article styles*/
+article h2 {
+	color: white;
+	font-size: 1.3em;
+	background-color: rgba(55,14,224,1);
+}
+article h2:first-letter {
+	font-size: 200%;
+	color: rgba(239,22,231,.6);
+}
+article a + p {
+	font-size: .46em;
+}
+
+/*footer styles*/
+footer {
+	text-align: center;
+	font-size: .7em;
+	font-weight: bold;
+	line-height: 1.7em;
+	font-variant: small-caps;
+	background-color: rgba(55,14,224,1);
+	color: rgba(239,22,231,.6);
+}

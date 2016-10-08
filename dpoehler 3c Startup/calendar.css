@@ -1,0 +1,43 @@
+/*
+   Field Day Calendar Styles Sheet
+   Author: Daniel Poehler
+   Date:   12/16/2015
+
+   Filename:         calendar.css
+   Supporting Files: none
+*/
+
+/*Calendar Table Styles*/
+
+table.calendar {
+	border: 6px solid white;
+	border-style: ridge;
+	border-collapse: separate;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+
+table.calendar caption {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: rgba(239,22,231,.6);
+}
+
+table.calendar tbody tr {
+	height: 5em;
+}
+
+table.calendar tbody td {
+	vertical-align: top;
+	text-align: left;
+}
+/*wDayColumns styles*/
+table.calendar col.wDayColumns {
+	background-color: rgb(236,255,211);
+	width: 15%;
+}
+
+ /*wEndColumns styles*/
+table.calendar col.wEndColumns {
+	background-color: rgb(255,231,255);
+	width: 17%;
+}
